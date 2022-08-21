@@ -1,38 +1,61 @@
 .header {
     color: white;
-    background-color: firebrick;
-    font-family: Papyrus, sans-serif;
+    background-color: white;
+    font-family: 'Papyrus', sans-serif;
     font-size: 2.5vw;
     text-align: center; 
   
   }
   .main
   {
-    font-family: Verdana, Arial, sans-serif;
-    background-color: whitesmoke;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    background-color: white;
     font-size: 1.3vw;
     text-align: center;
   } 
   h2
   {
-    font-family: Verdana, Arial, sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
   }
   .footer
   {
     font-size: 1vw;
-    font-family: Verdana, Arial, sans-serif;
+    font-family: calibri, sans-serif;
   }
    /* Style the top navigation bar */
-   .topnav {
-       overflow: hidden;
-       background-color: whitesmoke;
+   .navbar {
+    width: 100%;
+    background-color:darkkhaki;
+    overflow: auto;
    }
    /* Style the topnav links */
-   .topnav a {
-       float: left;
-       display: block;
-       color: black;
-       text-align: center;
-       padding: 14px 16px;
-     font-family: calibri, sans-serif
+   .navbar a {
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.3vw;
+    width: 15%;
+    text-align: center; /* If you want the text to be centered */
+   }
+
+   .navbar a:hover {
+    background-color: #000;
+    }
+
+    .navbar a.active {
+        background-color: #04AA6D}
+
+    /* Add responsiveness - on screens less than 500px, make the navigation links appear on top of each other, instead of next to each other */
+@media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+      width: 100%;
+      text-align: left; /* If you want the text to be left-aligned on small screens */
+    }
+}
+
+   ol, li {
+    text-align: center;
    }
