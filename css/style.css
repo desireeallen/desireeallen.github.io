@@ -1,9 +1,14 @@
+* {
+    box-sizing: border-box;
+  }
+
 .header {
     color: white;
     background-color: white;
     font-family: 'Papyrus', sans-serif;
     font-size: 2.5vw;
     text-align: center; 
+    width: 100%;
   
   }
   .main
@@ -36,7 +41,7 @@
     text-decoration: none;
     font-size: 1.3vw;
     width: 15%;
-    text-align: center; /* If you want the text to be centered */
+    text-align: center; 
    }
 
    .navbar a:hover {
@@ -59,3 +64,48 @@
    ol, li {
     text-align: center;
    }
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1.5em;
+}
+
+.menu{
+    font-family: calibri, sans-serif;
+    font-size: 1.3vw;
+}
+
+.menu-group-heading{
+    margin: 0;
+    padding-bottom: 1em;
+    border-bottom: 2px solid #ccc;
+}
+
+.menu-group{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5em;
+    padding: 1.5em 0;
+}
+
+@media screen and (min-width: 992px) {
+    .menu {
+        font-size: 16px;
+    }
+.menu-group{
+    grid-template-columns: repeat (2, 1fr);
+}
+}
+
+.menu-item{
+    display: flex;
+}
+
+.menu-item-image{
+    width: 80px;
+    height: 80px;
+    flex-shrink: 0;
+    object-fit: cover;
+    margin-right: 1.5em;
+}
