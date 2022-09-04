@@ -88,6 +88,8 @@
    .menu-item-name{
     font-weight: bold;
     text-align: center;
+    text-decoration: underline;     
+  text-decoration-color:black; 
 }
 
 .menu-item-desc{
@@ -132,7 +134,6 @@
     padding-right: 1vw;
 }
 
-
 .page-title {
     font-family: 'Pacifico', cursive;
     padding-top: 1vw;
@@ -150,7 +151,6 @@
     font-style: italic;
 }
  
-
 table {
   width: 80%;
   margin-left: 10vw;
@@ -161,4 +161,3 @@ td {
   text-align: left;
   padding-left: 2vw;
 }
-  
