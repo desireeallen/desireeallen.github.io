@@ -88,6 +88,8 @@
    .menu-item-name{
     font-weight: bold;
     text-align: center;
+    text-decoration: underline;     
+  text-decoration-color:black; 
 }
 
 .menu-item-desc{
@@ -132,12 +134,11 @@
     padding-right: 1vw;
 }
 
-
 .page-title {
     font-family: 'Pacifico', cursive;
     padding-top: 1vw;
     padding-bottom: 0.5vw;
-    font-size: 2vw;
+    font-size: 3vw;
     text-align: center;
 }
 
@@ -149,22 +150,14 @@
 .privacy {
     font-style: italic;
 }
-
-.list-center {
-  text-align: center;
-  list-style-position: inside;
-  font-style: italic;
-}
-
-.privacy-box {
-  border-color: grey;
-  border-width: 3px;
-  border-style: solid;
-  padding: 2vw;
+ 
+table {
+  width: 80%;
   margin-left: 10vw;
   margin-right: 10vw;
 }
- 
-menu {
-  font-weight: bold;
+
+td {
+  text-align: left;
+  padding-left: 2vw;
 }
