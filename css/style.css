@@ -110,6 +110,7 @@
 
 .restaurant-image {
     width: 50%;
+    max-width="100%";
     height: auto;
     float: left;
     padding-right: 1vw;
@@ -118,6 +119,7 @@
 
 .food-image {
     width: 50%;
+    max-width="100%";
     height: auto;
     float: right;
     padding-left: 1vw;
