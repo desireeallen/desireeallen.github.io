@@ -102,6 +102,7 @@
 .maori-hearts{
     width: 15%;
     height: 15%;
+    max-width: 100%;
     float: right;
     padding-right: 2vw;
     padding-top: 2vw;
