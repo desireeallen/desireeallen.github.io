@@ -1,6 +1,5 @@
 * {
-    box-sizing: border-box;
-  }
+    box-sizing: border-box;}
 
 .header {
     color: black;
@@ -13,14 +12,14 @@
     padding-top: 2.5vw;
     padding-bottom: 2.5vw;
     font-size: 4vw;
-    text-align: center;
+    text-align: centre;
   }
 
   .main
   {
     font-family: calibri, sans-serif;
     background-color: white;
-    font-size: 1.3vw;
+    font-size: 1.8vw;
     text-align: center;
   } 
  
@@ -100,17 +99,15 @@
 }
 
 .maori-hearts{
-    width: 15%;
-    height: 15%;
-    max-width: 100%;
+    max-width: 15%;
+    height: auto;
     float: right;
     padding-right: 2vw;
     padding-top: 2vw;
 }
 
 .restaurant-image {
-    width: 50%;
-    max-width="100%";
+    max-width: 50%;
     height: auto;
     float: left;
     padding-right: 1vw;
@@ -118,8 +115,7 @@
 }
 
 .food-image {
-    width: 50%;
-    max-width="100%";
+    max-width: 50%;
     height: auto;
     float: right;
     padding-left: 1vw;
@@ -129,7 +125,7 @@
 .owners-image {
     width: 60%;
     height: auto;
-    float: centre;
+    float: none;
     padding-right: 1vw;
 }
 
