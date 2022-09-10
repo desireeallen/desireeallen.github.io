@@ -120,14 +120,6 @@
     padding-bottom: 1vw;
 }
 
-@media only screen and (max-width: 600px){
-  .restaurant-image .food-image{
-    max-width: 25%;
-    height: auto;
-  }
-
-}
-
 .food-image {
     max-width: 50%;
     height: auto;
@@ -137,7 +129,7 @@
 }
 
 .owners-image {
-    width: 60%;
+    width: 50%;
     height: auto;
     float: none;
     padding-right: 1vw;
