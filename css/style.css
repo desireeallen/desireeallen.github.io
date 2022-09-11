@@ -4,6 +4,12 @@
 html {
   font-size: 16px}
 
+  body{
+    margin-left: 2vw;
+    margin-bottom: 2vw;
+    margin-right: 2vw;
+  }
+
 /* HEADER STYLE The Haukai Restaurant*/
 header {
     color: black;
