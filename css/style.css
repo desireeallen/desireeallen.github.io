@@ -1,17 +1,19 @@
 * {
-    box-sizing: border-box;}
+    box-sizing: border-box;
+  }
 
 html {
-  font-size: 16px}
+  font-size: 16px
+  }
 
-  body{
+  body {
     margin-left: 2vw;
     margin-bottom: 2vw;
     margin-right: 2vw;
   }
 
 /* HEADER STYLE The Haukai Restaurant*/
-header {
+  header {
     color: black;
     text-align: center; 
     width: 100%;
@@ -37,7 +39,8 @@ header {
   }
 
   .maori-hearts{
-    max-width: 15%;
+    max-width: 100%;
+    width: 15%;
     height: auto;
     float: right;
     padding-right: 2vw;
@@ -56,7 +59,7 @@ header {
     padding: 1vw;
     color: white;
     text-decoration: none;
-    width: 15%;
+    width: 13%;
     font-size: 1rem;
     text-align: center; 
    }
@@ -92,10 +95,6 @@ header {
     font-family: 'Pacifico', cursive;
   }
 
-  h3{
-    text-align: center;
-  }
-
   @media (min-width: 0px) {
     h2 { font-size: 1rem; }
   }
@@ -106,6 +105,21 @@ header {
   
   @media (min-width: 1001px){
     h2 { font-size: 2rem; }
+  }
+
+  h3 {
+    text-align: center;
+  }
+  @media (min-width: 0px) {
+    h3 { font-size: 0.5rem; }
+  }
+  
+  @media (min-width: 400px) {
+    h3 { font-size: calc(1rem + 1vw); }
+  }
+  
+  @media (min-width: 1001px){
+    h3 { font-size: 1.5rem; }
   }
 
   p, ol, li{
@@ -172,7 +186,7 @@ header {
 
 /*MENU PAGE*/
 .menu-name{
-  font-weight: bold;     
+  font-weight: 500;     
   text-decoration-color:black; 
 }
 
@@ -215,7 +229,7 @@ hr.solid {
 }
   
 
-/*ABOUT US STYLE*/
+/*ABOUT US PAGE*/
 
 .owners-image {
   max-width: 100%;
