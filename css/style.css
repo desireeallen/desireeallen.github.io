@@ -102,20 +102,20 @@ header {
     h2 { font-size: 2rem; }
   }
 
-  p{
+  p, ol, li{
     text-align: center;
   }
 
   @media (min-width: 0px) {
-    p { font-size: 0.5rem; }
+    p, ol, li { font-size: 0.5rem; }
   }
   
   @media (min-width: 400px) {
-    p { font-size: calc(0.5rem + 1vw); }
+    p, ol, li { font-size: calc(0.5rem + 1vw); }
   }
   
   @media (min-width: 1001px){
-    p { font-size: 1rem; }
+    p, ol, li { font-size: 1rem; }
   }
 
   iframe {
@@ -238,17 +238,7 @@ hr.solid {
     list-style-position: inside;
    }
 
-   @media (min-width: 0px) {
-    .list-center { font-size: 0.5rem; }
-  }
-  
-  @media (min-width: 400px) {
-    .list-center { font-size: calc(0.5rem + 1vw); }
-  }
-  
-  @media (min-width: 1001px){
-    .list-center { font-size: 1rem; }
-  }
+
  
 
 
