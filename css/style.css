@@ -67,6 +67,7 @@ header {
       width: 100%;
       font-size: calc(0.5rem + 1vw);
       text-align: left; 
+      padding-bottom: 2vw;
     }
 }
 
@@ -219,8 +220,11 @@ hr.solid {
 }
 
 .rosters-link {
-  font-size: 2vw;
+  font-size: 1rem;
   font-weight: bold;
+  text-align: center;
+  color: darkblue;
+  border: darkblue 1rem;
 }
 
 
@@ -234,6 +238,17 @@ hr.solid {
     list-style-position: inside;
    }
 
+   @media (min-width: 0px) {
+    .list-center { font-size: 0.5rem; }
+  }
+  
+  @media (min-width: 400px) {
+    .list-center { font-size: calc(0.5rem + 1vw); }
+  }
+  
+  @media (min-width: 1001px){
+    .list-center { font-size: 1rem; }
+  }
  
 
 
