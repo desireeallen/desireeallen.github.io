@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Authorised access only - please sign in" 
+AuthUserFile C:\Users\desal\OneDrive\Desktop\Web Development\BIT607\web\Haukai Restaurant Web App\haukai\haukai\.htpasswd
+Require valid-user
