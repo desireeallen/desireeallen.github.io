@@ -1,4 +1,0 @@
-AuthType Basic
-AuthName "Restricted access"
-AuthUserFile "C:\Users\desal\OneDrive\Desktop\Web Development\BIT607\www\Assignment 2 Haukai Restaurant Web App\haukai\haukai\htpasswd"
-Require valid-user
