@@ -1,4 +1,0 @@
-AuthType Basic
-AuthName "Authorised access only - please sign in" 
-AuthUserFile C:\Users\desal\OneDrive\Desktop\Web Development\BIT607\www\Assignment 2 Haukai Restaurant Web App\haukai\haukai\private\.htpasswd.txt
-Require valid-user
